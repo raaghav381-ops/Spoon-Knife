@@ -6,11 +6,11 @@ def greet(name="World"):
 
     Example:
         >>> greet("GitHub")
-        'Hello, GitHub! Welcome to fork-and-PR practice.'
+        'Hello, GitHub! Welcome to our shared project.'
     """
     if not name or not str(name).strip():
         name = "World"
-    return f"Hi, {str(name).strip()}! Thanks for collaborating (feature branch)."
+    return f"Hello, {str(name).strip()}! Thanks for collaborating on our shared project."
 
 def add(a, b):
     """Simple add function - example feature addition."""
