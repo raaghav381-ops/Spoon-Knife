@@ -10,7 +10,7 @@ def greet(name="World"):
     """
     if not name or not str(name).strip():
         name = "World"
-    return f"Hello, {str(name).strip()}! Welcome to fork-and-PR practice."
+    return f"Hello, {str(name).strip()}! Welcome to our shared project (main branch)."
 
 def add(a, b):
     """Simple add function - example feature addition."""
